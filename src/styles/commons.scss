@@ -1,0 +1,16 @@
+
+$color-ligth-orange:#F9CF93;
+$color-crema: #F9E4C8;
+$color-light-grayish-orange: #DBD0C0;
+$color-white-orange: #FAEEE0;
+$color-white: white;
+
+$font-title: 32px;
+$font-subtitle: 26;
+
+@mixin center-element {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
