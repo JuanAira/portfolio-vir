@@ -487,6 +487,11 @@ a:hover {
 	margin-top: 5rem;
 }
 
+.name-person {
+	background: -webkit-linear-gradient(#ef3d91, #0092ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 /********************/
 /*     Services     */
@@ -725,7 +730,7 @@ a:hover {
 	top: -15px;
 	right: 0;
 	left: 0;
-	width: 48px;
+	width: 38px;
 	margin-right: auto;
 	margin-left: auto;
 }

@@ -8,13 +8,13 @@ const Navbar = () => {
       <div className="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
         <ul className="navbar-nav ms-auto navbar-nav-scroll">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#header">Home</a>
+            <a className="nav-link active" aria-current="page" href="#header">Presentation</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#details">Descriprion</a>
+            <a className="nav-link" href="#details">Description</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#Portfolio">Portfolio</a>
+            <a className="nav-link" href="#Portfolio">Case studies</a>
           </li>
         </ul>
         <span className="nav-item">
