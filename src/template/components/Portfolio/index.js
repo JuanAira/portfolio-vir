@@ -30,54 +30,6 @@ const Portfolio = () => {
                   <img className="quotes" src={Bookmark} alt="alternative" />
                   <div className="card-body">
                     <p className="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                    <div className="testimonial-author">Sam Bloom</div>
-                    <div className="occupation">General Manager, Presentop</div>
-                  </div>
-                  <div className="gradient-floor blue-to-purple" />
-                </div>
-              </Fade>
-            
-              <Fade left>
-                <div className="card">
-                  <img className="quotes" src={Bookmark} alt="alternative" />
-                  <div className="card-body">
-                    <p className="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                    <div className="testimonial-author">Bill McKenzie</div>
-                    <div className="occupation">General Manager, Presentop</div>
-                  </div>
-                  <div className="gradient-floor purple-to-green" />
-                </div>
-              </Fade>
-
-              <Fade left>
-                <div className="card">
-                  <img className="quotes" src={Bookmark} alt="alternative" />
-                  <div className="card-body">
-                    <p className="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                    <div className="testimonial-author">Vanya Dropper</div>
-                    <div className="occupation">General Manager, Presentop</div>
-                  </div>
-                  <div className="gradient-floor red-to-blue" />
-                </div>
-              </Fade>
-
-              <Fade left>
-                <div className="card">
-                  <img className="quotes" src={Bookmark} alt="alternative" />
-                  <div className="card-body">
-                    <p className="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
-                    <div className="testimonial-author">Lefty Brown</div>
-                    <div className="occupation">General Manager, Presentop</div>
-                  </div>
-                  <div className="gradient-floor blue-to-purple" />
-                </div>
-              </Fade>
-
-              <Fade left>
-                <div className="card">
-                  <img className="quotes" src={Bookmark} alt="alternative" />
-                  <div className="card-body">
-                    <p className="testimonial-text">Suspendisse vitae enim arcu. Aliqu convallis risus a felis blandit, at mollis nisi bibendum aliquam noto ricos</p>
                     <div className="testimonial-author">Susane Blake</div>
                     <div className="occupation">General Manager, Presentop</div>
                   </div>

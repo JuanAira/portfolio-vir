@@ -1,0 +1,20 @@
+@import '../../../styles/commons.scss';
+
+.name-person {
+  color: $color-name;
+}
+
+.btn-portfolio {
+  background: $color-buttons;
+  border-color: $color-buttons;
+
+  .btn-solid-lg {
+    color: black;
+  }
+
+  :hover {
+    .name-person {
+      color: $color-name;
+    }
+  }
+}

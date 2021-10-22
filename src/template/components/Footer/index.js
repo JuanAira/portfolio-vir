@@ -36,15 +36,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div><div className="copyright bg-gray">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <p className="p-small statement">2021 © </p>
-            </div>
-          </div>
-        </div>
-      </div></> 
+    </div>
+    </> 
   )
 }
 

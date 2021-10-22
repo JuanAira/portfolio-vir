@@ -2,14 +2,13 @@
 
 import '../../css/bootstrap.min.css'
 import '../../css/fontawesome-all.min.css'
-import '../../css/styles.css'
+import '../../css/styles.scss'
 import '../../css/swiper.css'
 
 import Navbar from '../Navbar'
 import Header from '../Header'
 import Person from '../Person'
 import Portfolio from '../Portfolio'
-import Footer from '../Footer/'
 
 
 const Landing=() => (
@@ -24,7 +23,6 @@ const Landing=() => (
     <Header/>
     <Person/>
     <Portfolio/>
-    <Footer/>
   </div>
 );
 

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import Foto from './img/photo2.png';
 
 const Person = () => {
   return (
@@ -9,14 +10,14 @@ const Person = () => {
       <div className="row">
       <div className="col-lg-6 col-xl-7">
           <div className="image-container">
-          <Fade top>
-            <img className="img-fluid" src="https://inovatik.com/nubis/images/details-1.png" alt="alternative" />
+          <Fade left>
+            <img className="img-fluid" src={Foto} alt="alternative" />
           </Fade>
           </div>
         </div> 
         <div className="col-lg-6 col-xl-5">
           <div className="text-container">
-          <Fade top>
+          <Fade right>
             <div className="section-title">ABOUT ME</div>
             <h6 className="text-center">I define myself as an organized person, curious and responsable, always predisposed to learn new stuff. I am passionate about creating, researching and innovating.</h6>
             <p className="text-center"> 

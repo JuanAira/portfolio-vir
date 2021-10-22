@@ -33,6 +33,8 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
+@import '../../styles/commons.scss';
+
 body,
 html {
     width: 100%;
@@ -154,7 +156,7 @@ a:hover {
 
 .section-title {
 	margin-bottom: 0.5rem;
-	color: #ef473d;
+	color: $color-name;
 	font-weight: 600;
 	font-size: 0.875rem;
 	text-align: center;
@@ -190,7 +192,7 @@ a:hover {
 	border: 1px solid #0092ff;
 	border-radius: 30px;
 	background-color: #0092ff;
-	color: #ffffff;
+	color: black;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -200,17 +202,17 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #0092ff; /* needs to stay here because of the color property of a tag */
+	color: black; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-solid-sm {
 	display: inline-block;
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	border: 1px solid #0092ff;
+	border: 1px solid $color-buttons;
 	border-radius: 30px;
-	background-color: #0092ff;
-	color: #ffffff;
+	background-color: transparent;
+	color: black;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0;
@@ -219,8 +221,8 @@ a:hover {
 }
 
 .btn-solid-sm:hover {
-	background-color: transparent;
-	color: #0092ff; /* needs to stay here because of the color property of a tag */
+	background-color: $color-buttons;
+	color:black; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -345,7 +347,7 @@ a:hover {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #fcfafb;
+	background-color: white;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -400,7 +402,7 @@ a:hover {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #5e6576;
+	color: black;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -408,7 +410,7 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #0092ff;
+	color:$color-buttons;
 }
 
 /* Dropdown Menu */
@@ -430,7 +432,7 @@ a:hover {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 	border: none;
-	background-color: #fcfafb;
+	background-color: white;
 }
 
 .navbar .dropdown-item {
@@ -444,7 +446,7 @@ a:hover {
 }
 
 .navbar .dropdown-item:hover {
-	background-color: #fcfafb;
+	background-color: white;
 	color: #0092ff;
 }
 
@@ -470,7 +472,6 @@ a:hover {
 .header {
 	padding-top: 8rem;
 	padding-bottom: 4em;
-	background: url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -487,10 +488,8 @@ a:hover {
 	margin-top: 5rem;
 }
 
-.name-person {
-	background: -webkit-linear-gradient(#ef3d91, #0092ff);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.description-person {
+	text-align: center;
 }
 
 /********************/
@@ -903,7 +902,7 @@ a:hover {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #0092ff;
+    color: $color-buttons;
 	transition: all 0.2s ease;
 }
 
@@ -917,7 +916,7 @@ a:hover {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #0092ff;
+	color: $color-buttons;
 }
 
 
@@ -1081,7 +1080,7 @@ a:hover {
 	/* Navigation */
 	.navbar {
 		padding-top: 1.75rem;
-		background-color: #fcfafb;
+		background-color: white;
 		box-shadow: none;
 		transition: all 0.2s;
 	}
